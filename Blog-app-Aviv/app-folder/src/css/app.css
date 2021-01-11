@@ -1,0 +1,83 @@
+body {
+	background: linear-gradient(-45deg, #132b58, #069c45, #23a6d5, #23d5ab) no-repeat center center fixed;
+  background-size: 400% 400%;
+	animation: gradient 15s ease infinite;
+}
+
+@keyframes gradient {
+	0% {
+		background-position: 0% 50%;
+	}
+	50% {
+		background-position: 100% 50%;
+	}
+	100% {
+		background-position: 0% 50%;
+	}
+}
+ 
+ .jumbotron {
+    max-width: 500px;
+    margin: auto;
+    background-color: rgba(12, 112, 194, 0.6);
+    border-radius: 2%;
+    color: white;
+  }
+  
+  .container {
+    margin-right: auto;
+    margin-left: auto;
+    max-width: 500px;
+}
+
+  .main-btns {
+    width: 20%;
+    margin: 5% 40% 1% 40%; /*top right bottom left*/
+  }
+
+  .justify-content-end {
+    margin-right: 3%;
+  }
+
+  #nav-dropdown {
+    color: white;
+  }
+
+  .post-card {
+    margin: 1.5%;
+    border-color: rgb(153, 150, 150);
+    border-width: 4px;
+    border-radius: 2%;  
+    /*solve problem with bottom border*/  
+  }
+
+  .search {
+    padding: 0% 2% 0% 2%;
+  }
+
+  h1 {
+    color: white;
+  }
+
+  .Like {
+    position: absolute;
+    bottom: 1%;
+    right: 3%;
+    padding: 1%;
+  }
+
+  .Like span {
+    font-size: 13px;
+    font-weight: 500;
+    color: rgb(56, 56, 56);
+  }
+
+  .like-btn {
+    color: grey;
+    bottom: 2px;
+  }
+
+  
+  .like-btn:hover {
+    color: #003feb
+  }
